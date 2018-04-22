@@ -220,30 +220,9 @@
 				} //render
 			}
 	}
-    $( document ).ready(function() {
-        $.ajax({type: "GET", dataType: "xml",url : ("../repo.xml"),cache: false,
-            success : function(xml){
-				      data_loader_engine(repoContents,xml);
-              setAnchorTargets();
-			      },
-            error: function() {
-              $("#contactInfo").hide();
-              setAnchorTargets();
-            }
-        }); //ajax
-
-
     }); // ready
 
 </script>
-
-<div id="If you want a repo similar to this check out a template I made">
-	<div class="container">
-		<h5>If you want a repo similar to this check out a template I made</h5>
-		<ul class="list-group" id="repoFooterLinks">
-		</ul>
-	</div>
-</div>
 
 
 </body>
