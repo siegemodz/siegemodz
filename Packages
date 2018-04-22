@@ -1,33 +1,62 @@
-Package: com.Nrepo.Nicon
-Version: 1.0.4
+Package: com.anemonetheming.anemone
+Version: 2.1.7-5
+Priority: optional
+Section: Tweaks
+Maintainer: SiegeModz <erasevii7@gmail.com>
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), com.rpetrich.rocketbootstrap, pincrush
+Conflicts: org.coolstar.themelib, anemoneteam.anemone, winterboard, com.codethemed.iconbundles, com.idd.iconomatic
+Provides: org.coolstar.themelib, anemoneteam.anemone, org.coolstar.classicdock, winterboard, org.coolstar.classicbadges, org.coolstar.customclock, com.codethemed.iconbundles, com.idd.iconomatic
+Replaces: org.coolstar.themelib, anemoneteam.anemone, org.coolstar.classicdock, winterboard, org.coolstar.classicbadges, com.codethemed.iconbundles, com.idd.iconomatic
 Architecture: iphoneos-arm
-Essential: yes
-Maintainer:  NsBm0d  <NsBm0d@LIVE.com>
-Filename: ./debs//com.nrepo.nicon_1.0.4_iphoneos-arm.deb
-Size: 12062
-MD5sum: 16c272cd218bec8ec146fe92b277b257
-SHA1: 60286cc76cf57f313976e1d2c35201608588d681
-SHA256: 4ec4c749dce9e0adea4c0ba824d4c967179b457cccdef338a1c3027d017cc560
-Section: aTweaks
-Priority: required
-Description: Adds setup files, icons and sources to repo
-Author:  NsBm0d 
-Depiction: https://Nrepo.github.io/depictions/?p=com.Nrepo.Nicon
-Name: Nicon
-Sponsor: http://nrepo.github.io/
+Filename: debs/anemone_2.1.7-5.deb
+Size: 1875788
+Installed-Size: 8312
+MD5sum: d0d2e989054292830e0337093153bdca
+Description: An awesome theme manager!
+Name: Anemone
+Author: AnemoneTeam <anemonetheming@gmail.com>
 
-Package: com.Nrepo.NsB
-Version: 1.0.2
+Package: com.cydiageek.springanimations
+Version: 1.0.0
+Priority: optional
+Section: Tweaks
+Maintainer: SiegeModz <erasevii7@gmail.com>
+Depends: mobilesubstrate, firmware (>= 11.0), preferenceloader
 Architecture: iphoneos-arm
-Maintainer:  NsBm0d  <NsBm0d@LIVE.com>
-Filename: ./debs//com.nrepo.nsb_1.0.2_iphoneos-arm.deb
-Size: 633808
-MD5sum: 54b72a652c052596bcc8a7bc317833c8
-SHA1: ea46194854ea045235b349f5f175160c7f2361ef
-SHA256: b4a175c5d09b79b1c45ad6f542fa582066f2c2eef31f16fda34d10bae9a84200
-Section: aThemes
-Description: Crystal Apple Theme
-Author:  NsBm0d 
-Depiction: https://Nrepo.github.io/depictions/?p=com.Nrepo.NsB
-Name: NsB
+Filename: debs/springanimations_1.0.0.deb
+Size: 37390
+Installed-Size: 242
+MD5sum: 347e8a2fd8d43775ee3a8f4938d178ec
+Description: Nice SpringBoard Animations Effects on iOS 11!
+Name: SpringAnimations
+Author: CydiaGeek <lucaluca86@aol.com>
+
+Package: com.junesiphone.lockpluspro
+Version: 0.7
+Section: Cracked Tweaks
+Maintainer: SiegeModz <erasevii7@gmail.com>
+Depends: mobilesubstrate
+Conflicts: 
+Architecture: iphoneos-arm
+Filename: debs/lockpluspro.deb
+Size: 15271600
+MD5sum: 197ef851b4f1dc36647c2843e6a017ff
+Description: The ultimate lock screen tweak!
+Name: LockPlus Pro
+Author: JunesiPhone <junesgraphics@gmail.com>
+
+Package: com.r333d.cylinder
+Version: 1.0.6
+Section: Tweaks
+Maintainer: SiegeModz <erasevii7@gmail.com>
+Depends: firmware (>= 3.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Architecture: iphoneos-arm
+Filename: debs/com.r333d.deb
+Size: 255488
+Installed-Size: 899
+MD5sum: 1c0eebe91f6e03faea96218dadf8f4cc
+Description: Make your icons dance
+Name: Cylinder
+Author: Reed Weichler <rweichler+cydia@gmail.com>
+
 
